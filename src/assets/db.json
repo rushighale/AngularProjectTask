@@ -1,0 +1,66 @@
+{
+ 
+  
+    "result": {
+        "todaysTasks": [
+            {
+                "date": "2022-07-08",
+                "projectName": "Genius Parents",
+                "taskName": "Use case updation",
+                "taskDescription": "Use case updation"
+            },
+            {
+                "date": "2022-07-08",
+                "projectName": "Genius Parents",
+                "taskName": "Functionality review",
+                "taskDescription": "FUnctionality review"
+            },
+            {
+                "date": "2022-07-08",
+                "projectName": "Jeeni Enhancement",
+                "taskName": "MySQL 8 support",
+                "taskDescription": "MySQL 8 support"
+            },
+            {
+                "date": "2022-07-08",
+                "projectName": "Task Reporting Project",
+                "taskName": "Review: KSK",
+                "taskDescription": "Review of functionality or code review "
+            }
+        ],
+        "yesterdaysPlannedTasks": [
+            {
+                "date": "2022-07-07",
+                "projectName": "Jeeni Enhancement",
+                "taskName": "Jeeni Migration to MySQL8",
+                "taskupdateDescription": "No Task update Found",
+                "hrs": null,
+                "status": 51.166666666666664
+            },
+            {
+                "date": "2022-07-07",
+                "projectName": "Jeeni Enhancement",
+                "taskName": "Jeeni POC",
+                "taskupdateDescription": "No Task update Found",
+                "hrs": null,
+                "status": 0
+            },
+            {
+                "date": "2022-07-07",
+                "projectName": "Jeeni Enhancement",
+                "taskName": "Support activities",
+                "taskupdateDescription": "No Task update Found",
+                "hrs": null,
+                "status": 54.5
+            },
+            {
+                "date": "2022-07-07",
+                "projectName": "Jeeni Enhancement",
+                "taskName": "Jeeni App : Bug fixing",
+                "taskupdateDescription": "No Task update Found",
+                "hrs": null,
+                "status": 0
+            }
+        ]
+    }
+}

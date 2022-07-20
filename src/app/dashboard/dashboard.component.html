@@ -1,0 +1,66 @@
+
+
+
+
+<div class="container mt-3">
+   <h3>Today's tasks</h3>
+    <table class="table table-bordered">
+      
+        <thead class="bg-info">
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Project Name</th>
+            <th scope="col">TaskName</th>
+            <th scope="col">TaskDescription</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  class="table-primary" *ngFor="let t of todaysTasks">
+            <th scope="row">{{t.date}}</th>
+            <td>{{t.projectName}}</td>
+            <td>{{t.taskDescription}}</td>
+            <td>{{t.taskDescription}}</td>
+          </tr>
+  
+        </tbody>
+      </table>
+
+      <!-- /////////////////////// -->
+
+
+      <h3>Yesterdays tasks</h3>
+
+      <table class="table table-bordered ">
+        <thead class="bg-info">
+          <tr >
+            <th scope="col">Date</th>
+            <th scope="col">Project Name</th>
+            <th scope="col">Task</th>
+            <th scope="col">Hrs</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+
+       
+
+          <tr  class="table-primary" *ngFor="let t of yesterdaysTasks">
+            <th scope="row">2022-07-08</th>
+            <th scope="row">{{t.date}}</th>
+            <td>{{t.projectName}}</td>
+            <td>{{t.taskName}}</td>
+            <td>{{t.taskupdateDescription}}</td>
+            <td>{{t.hrs}}</td>
+            <td>{{t.status}}</td>
+          </tr>
+
+          
+       
+        </tbody>
+
+        
+      </table>
+</div>
+
+
+
