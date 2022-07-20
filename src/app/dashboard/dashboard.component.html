@@ -15,10 +15,10 @@
           </tr>
         </thead>
         <tbody>
-          <tr  class="table-primary" *ngFor="let t of todaysTasks">
+          <tr  class="table-primary" *ngFor="let t of tasks.result.todaysTasks">
             <th scope="row">{{t.date}}</th>
             <td>{{t.projectName}}</td>
-            <td>{{t.taskDescription}}</td>
+            <td>{{t.taskName}}</td>
             <td>{{t.taskDescription}}</td>
           </tr>
   
@@ -35,7 +35,8 @@
           <tr >
             <th scope="col">Date</th>
             <th scope="col">Project Name</th>
-            <th scope="col">Task</th>
+            <th scope="col">TaskName</th>
+            <th>taskupdateDescription</th>
             <th scope="col">Hrs</th>
             <th scope="col">Status</th>
           </tr>
@@ -44,8 +45,8 @@
 
        
 
-          <tr  class="table-primary" *ngFor="let t of yesterdaysTasks">
-            <th scope="row">2022-07-08</th>
+          <tr  class="table-primary" *ngFor="let t of tasks.result.yesterdaysPlannedTasks">
+            
             <th scope="row">{{t.date}}</th>
             <td>{{t.projectName}}</td>
             <td>{{t.taskName}}</td>

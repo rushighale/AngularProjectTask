@@ -15,15 +15,15 @@ export class DashboardComponent implements OnInit {
 
  userId:any
 
-data:any;
+// data:any;
 
 
   // public todaystask:any[]=[]
  // public task:Result[] ={} as Result[];
 
-tasks:Weather[] ={} as Weather[];
-todaysTasks:TodaysTasksEntity[] ={} as TodaysTasksEntity[];
-yesterdaysTasks:YesterdaysPlannedTasksEntity[] ={} as YesterdaysPlannedTasksEntity[];
+tasks:Weather={} as Weather;
+// todaysTasks:TodaysTasksEntity[] ={} as TodaysTasksEntity[];
+// yesterdaysTasks:YesterdaysPlannedTasksEntity[] ={} as YesterdaysPlannedTasksEntity[];
 
 
 
@@ -48,9 +48,11 @@ console.log(this.userId)
     this.service.getTasksbyparam(this.userId).subscribe((data)=>{
       console.log(data)
       console.log(data.result.todaysTasks)
+      console.log(data.result.yesterdaysPlannedTasks)
+
       this.tasks=data
-      this.todaysTasks=data.result.todaysTasks
-      this.yesterdaysTasks=data.result.yesterdaysTasks
+      // this.todaysTasks=data.result.todaysTasks
+      // this.yesterdaysTasks=data.result.yesterdaysPlannedTasks
     
 
     },

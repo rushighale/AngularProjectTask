@@ -52,6 +52,7 @@ export class LoginComponent implements OnInit {
 
     } else {
       console.log("Fields are empty")
+      alert("plz enter the credentials..!")
     }
   }
 
